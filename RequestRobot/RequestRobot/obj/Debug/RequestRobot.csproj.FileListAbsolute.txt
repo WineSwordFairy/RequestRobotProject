@@ -1,1 +1,6 @@
 E:\Project\RequestRobotProject\RequestRobot\RequestRobot\bin\Debug\RequestRobot.exe.config
+E:\Project\RequestRobotProject\RequestRobot\RequestRobot\bin\Debug\RequestRobot.exe
+E:\Project\RequestRobotProject\RequestRobot\RequestRobot\bin\Debug\RequestRobot.pdb
+E:\Project\RequestRobotProject\RequestRobot\RequestRobot\obj\Debug\RequestRobot.csprojResolveAssemblyReference.cache
+E:\Project\RequestRobotProject\RequestRobot\RequestRobot\obj\Debug\RequestRobot.exe
+E:\Project\RequestRobotProject\RequestRobot\RequestRobot\obj\Debug\RequestRobot.pdb
