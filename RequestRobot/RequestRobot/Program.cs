@@ -5,16 +5,31 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using RequestRobot.Service;
+using RequestRobot.Read;
+using RequestRobot.Database;
+using RequestRobot.Model;
 
 namespace RequestRobot
 {
 	class Program
 	{
+
+		private static List<AccountInfo> accountList = (List<AccountInfo>)DataService.GetData();
+
 		static void Main(string[] args)
 		{
-			Register re = new Register();
-			re.DoRegister();
-
+			for (int i = 0; i < 100; i++)
+			{
+				Thread thread = new Thread(DoBuyProduct);
+				thread.Start();
+			}
+		}
+		public static void DoBuyProduct()
+		{
+			while (true)
+			{
+				accountList[new Random().Next(1, 3622)].BuyProduct();
+			}
 		}
 	}
 }

@@ -4,3 +4,7 @@ E:\Project\RequestRobotProject\RequestRobot\RequestRobot\bin\Debug\RequestRobot.
 E:\Project\RequestRobotProject\RequestRobot\RequestRobot\obj\Debug\RequestRobot.csprojResolveAssemblyReference.cache
 E:\Project\RequestRobotProject\RequestRobot\RequestRobot\obj\Debug\RequestRobot.exe
 E:\Project\RequestRobotProject\RequestRobot\RequestRobot\obj\Debug\RequestRobot.pdb
+E:\Project\RequestRobotProject\RequestRobot\RequestRobot\bin\Debug\Google.Protobuf.dll
+E:\Project\RequestRobotProject\RequestRobot\RequestRobot\bin\Debug\MySql.Data.dll
+E:\Project\RequestRobotProject\RequestRobot\RequestRobot\bin\Debug\Google.Protobuf.xml
+E:\Project\RequestRobotProject\RequestRobot\RequestRobot\bin\Debug\MySql.Data.xml
