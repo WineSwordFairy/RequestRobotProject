@@ -18,7 +18,7 @@ namespace RequestRobot.Model
 
 		public void BuyProduct()
 		{
-			string resultStr = request.DoRequest(string.Format("http://localhost:8087/BuyProduct?accountId={0}&productId={1}&count={2}&createDate={3}", this.Id,1,1, DateTime.Now.AddDays(new Random().Next(-1100, -1)).ToString("yyyy-MM-dd")), "");
+			string resultStr = request.DoRequest(string.Format("http://localhost:8089/BuyProduct?accountId={0}&productId={1}&count={2}&createDate={3}", this.Id,536563, 1, DateTime.Now.AddDays(new Random().Next(-1100, -1)).ToString("yyyy-MM-dd")), "");
 			Console.WriteLine(resultStr);
 		}
 	}
